@@ -28,7 +28,7 @@
         font-size: 10px;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     html, body {
         font-size: 15px;
     }
@@ -44,45 +44,66 @@
             flex-direction: column;
             .benefits__wrapper-box {
                 .benefits__wrapper-box-img {
-                    width: 40rem;
-                    height: 40rem;
+                    width: 50rem;
+                    height: 50rem;
                 }
                 .benefits__wrapper-box-text {
-                    font-size: 2.5rem;
-                    max-width: 22rem;
+                    font-size: 3.5rem;
+                    max-width: 35rem;
                     transform: translateY(-5rem);
                 }
             }
         }
     }
+    // Call
+    .call {
+        font-size: 3.5rem;
+        max-width: 55rem;
+    }
+    // Circle 
+    .circle {
+        .circle__img {
+            width: 30rem;
+            height: 30rem;
+        }
+        .circle__click {
+            font-size: 3.4rem;
+        }
+    }
 }
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     html, body {
         font-size: 13px;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     html, body {
         font-size: 11px;
     }
 }
-@media (max-width: 520px) {
+@media (max-width: 650px) {
     html, body {
         font-size: 9px;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 530px) {
     html, body {
         font-size: 8px;
     }
 }
-@media (max-width: 380px) {
+@media (max-width: 470px) {
     html, body {
         font-size: 7px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     html, body {
         font-size: 6px;
     }
 }
+@media (max-width: 300px) {
+    html, body {
+        font-size: 5px;
+    }
+}
+
