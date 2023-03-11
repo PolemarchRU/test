@@ -70,6 +70,15 @@
             font-size: 3.4rem;
         }
     }
+    // Footer
+    .footer {
+        padding: 7rem;
+        .footer__icon-link {
+            .footer__icon {
+                width: 5rem;
+            }
+        }
+    }
 }
 @media (max-width: 850px) {
     html, body {
